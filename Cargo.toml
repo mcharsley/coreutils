@@ -79,6 +79,7 @@ fuchsia = [
   "expr",
   "factor",
   "false",
+  "find",
   "fmt",
   "fold",
   "hashsum",
@@ -140,6 +141,7 @@ generic = [
   "expr",
   "factor",
   "false",
+  "find",
   "fmt",
   "fold",
   "hashsum",
@@ -214,6 +216,7 @@ expand   = { optional=true, path="src/expand" }
 expr     = { optional=true, path="src/expr" }
 factor   = { optional=true, path="src/factor" }
 false    = { optional=true, path="src/false" }
+find     = { optional=true, path="src/find" }
 fmt      = { optional=true, path="src/fmt" }
 fold     = { optional=true, path="src/fold" }
 groups   = { optional=true, path="src/groups" }

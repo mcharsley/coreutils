@@ -52,6 +52,7 @@ generic! {
     "expr", test_expr;
     "factor", test_factor;
     "false", test_false;
+    "find", test_find;
     "fold", test_fold;
     "hashsum", test_hashsum;
     "head", test_head;

@@ -1,0 +1,18 @@
+[package]
+name = "find"
+version = "0.0.1"
+authors = []
+
+[lib]
+name = "uu_find"
+path = "find.rs"
+
+[dependencies]
+libc = "*"
+uucore = { path="../uucore" }
+walker = "*"
+glob = "0.2"
+
+[[bin]]
+name = "find"
+path = "main.rs"
